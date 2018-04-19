@@ -21,7 +21,7 @@ namespace MvcMovie.Controllers
 	    {
 		    ViewBag.Message = "Hello " + name;
 		    ViewBag.NumTimes = id;
-		    ViewBag.Note = "this is a special note";
+		    ViewBag.Note = "this is a special note, testing create pull request";
 
 		    return View();
 	    }
