@@ -19,9 +19,9 @@ namespace MvcMovie.Controllers
 	    // GET: /HelloWorld/Welcome/ 
 	    public ActionResult Welcome(string name, int id = 1)
 	    {
-		    ViewBag.Message = "Hello " + name + "in master branch o yeah!";
+		    ViewBag.Message = "Hello " + name;
 		    ViewBag.NumTimes = id;
-		    ViewBag.Note = "this is a special note, testing create pull request";
+		    ViewBag.Note = "this is on the testbranch. Hey Hey!";
 
 		    return View();
 	    }
