@@ -21,7 +21,7 @@ namespace MvcMovie.Controllers
 	    {
 		    ViewBag.Message = "Hello " + name;
 		    ViewBag.NumTimes = id;
-		    ViewBag.Note = "this is on the testbranch";
+		    ViewBag.Note = "this is on the testbranch. Hey Hey!";
 
 		    return View();
 	    }
