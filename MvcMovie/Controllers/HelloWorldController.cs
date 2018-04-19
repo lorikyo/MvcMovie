@@ -19,6 +19,7 @@ namespace MvcMovie.Controllers
 	    // GET: /HelloWorld/Welcome/ 
 	    public ActionResult Welcome(string name, int id = 1)
 	    {
+            //this is a message on master
 		    ViewBag.Message = "Hello David on master" + name;
 		    ViewBag.NumTimes = id;
 		    ViewBag.Note = "this is on the master. Hey Hey!";
