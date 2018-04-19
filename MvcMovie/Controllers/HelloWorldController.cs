@@ -22,8 +22,7 @@ namespace MvcMovie.Controllers
             //this is a message on master
 		    ViewBag.Message = "Hello David on master" + name;
 		    ViewBag.NumTimes = id;
-		    ViewBag.Note = "this is on the master. Hey Hey!";
-
+			ViewBag.Note = "this is on the testbranch. Hey Hey 123!";
 		    return View();
 	    }
 	}
